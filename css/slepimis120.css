@@ -81,6 +81,7 @@ main {
     -webkit-animation: AnimationBgPosition 20s ease infinite;
     -moz-animation: AnimationBgPosition 20s ease infinite;
     animation: AnimationBgPosition 20s ease infinite;
+    min-height: 100vh;
 }
 
 a {
@@ -150,6 +151,10 @@ a:hover {
     .back-link a:hover {
         transform: scale(1.0);
     }
+}
+
+.main-content{
+    min-height: 93vh;
 }
 
 /** HERO **/
@@ -458,7 +463,7 @@ a:hover {
     padding-top: 5vw;
     font-size: 5vw;
     font-weight: 500;
-    line-height: 5vw;
+    line-height: 9vw;
 }
 
 .work .item {
@@ -492,7 +497,7 @@ a:hover {
 @media only screen and (max-width: 1023px) {
     .work {
         font-size: 6vw;
-        line-height: 12vw;
+        line-height: 9vw;
     }
 
     .work .item {
